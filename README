@@ -1,0 +1,19 @@
+# Background
+
+Ice Cream Dash is a Java-based game where you are tasked with filling an ice cream cone with specific toppings.
+The menu display informs the player which toppings are needed to be stacked on the cone to complete the order.
+With each incorrect topping that is stacked, the player loses a life. If the player loses all 3 possible lives,
+the game is over. If they manage to stack all the necessary toppings within their 3 lives, they win the game!
+
+# Development
+
+Ice Cream Dash utilizes hitboxes whose sizes are calculated from the topping's size and the y-position of the cone.
+Since each topping has a different size, there is one specific hitbox for each topping. 
+Toppings are painted continuously using a falling function, which is set to False once there is an intersection 
+with a hitbox. 
+
+# How To Play
+
+The objective of Ice Cream Dash is to catch the correct amount of toppings on the ice cream cone using the left
+and right arrows on your keyboard. But be careful! Each incorrect topping you catch will
+count as a mistake. 3 mistakes and you're out!
